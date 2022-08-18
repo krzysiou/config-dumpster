@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.productIconTheme": "fluent-icons",
+    "explorer.confirmDragAndDrop": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true 
+    },
+    "workbench.startupEditor": "none",
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "thunder-client.codeSnippetLanguage": "cs-httpclient",
+    "window.zoomLevel": 1,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never"
+}
