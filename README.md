@@ -17,3 +17,7 @@ Download them as `extensions`
 
 - OH MY ZSH THEME: krzysiou.zsh-theme
 - ITERM BACKGROUND COLOR: #24292e
+
+### ZSHRC
+
+- ZSHRC: .zshrc
