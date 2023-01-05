@@ -21,3 +21,5 @@ Download them as `extensions`
 ### ZSHRC
 
 - ZSHRC: .zshrc
+
+### :D
