@@ -3,6 +3,7 @@
 export ZSH="/Users/krzysiektluszcz/.oh-my-zsh"
 export EDITOR=nano
 export VISUAL=$EDITOR
+
 DEFAULT_USER=$(whoami)
 
 # THEME
@@ -14,13 +15,22 @@ ZSH_THEME="krzysiou"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
+# LS COLORS
+
+export LICOLORS=1
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
+
 # ALIASES
 
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias zshconfig="code ~/.zshrc"
-alias cdp="cd ~/Documents/workspace"
 alias cdd="cd ~/Documents"
+alias cdp="cd ~/Documents/workspace"
+alias ls="ls -lG"
+alias gl="git log --stat"
 alias gcam="git commit --am"
+alias gpl="git pull"
+alias gfe="git fetch"
 
 # NVM
 
