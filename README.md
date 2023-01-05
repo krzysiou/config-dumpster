@@ -22,4 +22,7 @@ Download them as `extensions`
 
 - ZSHRC: .zshrc
 
-### :D
+### worth considering:
+
+- homebrew
+- nvm
