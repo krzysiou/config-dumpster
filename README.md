@@ -17,8 +17,8 @@ Download them as `extensions`
 
 - OH MY ZSH THEME: krzysiou.zsh-theme
 - ITERM BACKGROUND:
-FOR VSC + ZSH - COLOR: #24292e
-FOR NVIM + FISH - COLOR: #001b21
+1. FOR VSC + ZSH - COLOR: #24292e
+2. FOR NVIM + FISH - COLOR: #001b21
 
 ### ZSHRC
 
