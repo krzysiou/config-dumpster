@@ -1,0 +1,17 @@
+local status, buffers = pcall(require, "close_buffers")
+if (not status) then return end
+
+buffers.setup({
+  preserve_window_layout = { 'this' },
+  next_buffer_cmd = function(windows)
+    require('bufferline').cycle(1)
+    local bufnr = vim.api.nvim_get_current_buf()
+
+    for _, window in ipairs(windows) do
+      vim.api.nvim_win_set_buf(window, bufnr)
+    end
+  end,
+})
+
+vim.api.nvim_set_keymap('n', 'Q', [[<CMD>lua require('close_buffers').delete({type = 'this', force = true})<CR>]],
+  { noremap = true, silent = true })
