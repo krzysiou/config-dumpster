@@ -16,11 +16,17 @@ Download them as `extensions`
 ### ITERM
 
 - OH MY ZSH THEME: krzysiou.zsh-theme
-- ITERM BACKGROUND COLOR: #24292e
+- ITERM BACKGROUND:
+  FOR VSC + ZSH - COLOR: #24292e
+  FOR NVIM + FISH - COLOR: #001b21
 
 ### ZSHRC
 
 - ZSHRC: .zshrc
+
+### CONFIG FILES
+
+- `.config` directory should go into `~/`
 
 ### worth considering:
 
