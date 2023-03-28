@@ -1,34 +1,21 @@
-# config-dumpster
+<div align="center">
 
-### VSC
-
-Download them as `extensions`
-
-- VSC MAIN THEME: GitHub Theme
-- VSC ICON THEME: Material Theme Icons
-- VSC PRODUCTION ICON THEME: Fluent Icons
-
-`KEYBINDINGS` and `SETTING` should go in `~/Library/Application\ Support/Code/User`
-
-- KEYBINDINGS: keybindings.json
-- SETTINGS: settings.json
-
-### ITERM
-
-- OH MY ZSH THEME: krzysiou.zsh-theme
-- ITERM BACKGROUND:
-1. FOR VSC + ZSH - COLOR: #24292e
-2. FOR NVIM + FISH - COLOR: #001b21
-
-### ZSHRC
-
-- ZSHRC: .zshrc
-
-### CONFIG FILES
-
-- `.config` directory should go into `~/`
-
-### worth considering:
-
-- homebrew
-- nvm
+  ![background-v1](https://media.giphy.com/media/ZvbRs0fQ9FI38gAOzT/giphy.gif)
+  
+  ##
+  
+  ###### 0.0 - vsc
+  
+   I'm using `Github Theme` for main theme, `Material Icons Theme` for icons theme and `Fluent Icons` for production icons theme. `keybindings.json` and `settings.json` should go in `~/Library/Application\ Support/Code/User`.
+  
+  ###### 0.1 - dotfiles 
+  
+   
+  `.config` directory should go into `~/` directory.
+  
+  
+   ###### 0.2 - iterm2
+  
+  I use minimalistic setup with `solarized` color preset. For background color I use `#001b21`.
+  
+</div>
