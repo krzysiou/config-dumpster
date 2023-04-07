@@ -18,21 +18,12 @@ function peco_change_directory
 
   begin
     echo --
-    if count $directories >/dev/null
-      ls -ad $directories |perl -pe "s#^#$PWD/#"
-    end
-    echo  "-- CURRENT"
-
-    echo $HOME/.config
-    echo $HOME
-    echo $HOME/Documents
-    echo $HOME/Documents/projects
-    echo "-- ANCHORS"
-
     ghq list -p
     echo "-- GIT"
 
-    ls -ad $HOME/Documents/projects/current/*
-    echo "-- LOCAL"
+    echo $HOME/ghq/github.com/krzysztof-tluszcz
+    echo $HOME/.config
+    echo $HOME
+    echo "-- ANCHORS"
   end | sed -e 's/\/$//' | awk '!a[$0]++' | _peco_change_directory $argv
 end

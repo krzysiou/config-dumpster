@@ -8,21 +8,16 @@ set -gx PROMPT_VERSION extensive # simple | extensive
 # theme
 set -g theme_color_scheme terminal-dark
 set -g fish_prompt_pwd_dir_length 1
-set -g theme_display_user yes
+set -g theme_display_user tes
 set -g theme_hide_hostname no
-set -g theme_hostname always
+set -g theme_hostname never
 
 # aliases
-alias fishconfig "vim ~/.config/fish"
-alias omfconfig "vim ~/.config/omf"
-alias tmuxconfig "vim ~/.config/tmux"
-alias nvimconfig "vim ~/.config/nvim"
+alias config "code ~/.config"
 alias cdd "cd ~/Documents"
-alias cdp "cd ~/ghq/github.com/krzysiou/"
-alias ll "exa -lg --icons"
-alias lla "exa -lga --icons"
-alias llt "exa -lg --icons --tree --level "
-alias llat "exa -lga --icons --tree --level "
+alias cdp "cd ~/ghq/github.com/krzysztof-tluszcz"
+alias ls "exa -lg --icons --group-directories-first"
+alias ll "exa -lga --icons --group-directories-first"
 alias gl "git log --stat"
 alias gcam "git commit --am"
 alias gpl "git pull"
@@ -31,11 +26,16 @@ alias gb "git branch"
 alias gaa "git add ."
 alias gcmsg "git commit -m"
 alias gco "git checkout"
+alias grb "git rebase"
+alias grbc "git rebase --continue"
+alias grba "git rebase --abort"
 alias g git
 
 command -qv nvim && alias vim nvim
 
-set -gx EDITOR nvim
+set -gx EDITOR nano
+
+set -x LESS "-R"
 
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
