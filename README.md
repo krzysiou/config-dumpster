@@ -20,6 +20,6 @@
   
   ###### 0.3 - Usefull apps
 
-  `vsc`, `postman`, `slack`, `simplenote`, `iterm2`, `chrome`, `karabiner-elements`, `homebrew`, `nvm`, `fish`, `gh-cli`, `oh-my-fish`
+  `vsc`, `slack`, `postman`, `simplenote`, `iterm2`, `chrome`, `karabiner-elements`, `homebrew`, `nvm`, `fish`, `gh-cli`, `oh-my-fish`
 
 </div>
