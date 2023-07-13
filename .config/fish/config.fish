@@ -24,7 +24,7 @@ alias gpl "git pull"
 alias gfe "git fetch"
 alias gb "git branch"
 alias gaa "git add ."
-alias gcmsg "git commit -m"
+alias gcmsg "git commit"
 alias gco "git checkout"
 alias grb "git rebase"
 alias grbc "git rebase --continue"
@@ -33,7 +33,7 @@ alias g git
 
 command -qv nvim && alias vim nvim
 
-set -gx EDITOR nano
+set -gx EDITOR "code -w"
 
 set -x LESS "-R"
 
