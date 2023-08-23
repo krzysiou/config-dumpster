@@ -107,5 +107,35 @@
 {
   "key": "cmd+n",
   "command": "-workbench.action.files.newUntitledFile"
-}
+},
+{
+  "key": "cmd+]",
+  "command": "-editor.action.indentLines",
+  "when": "editorTextFocus && !editorReadonly"
+},
+{
+  "key": "cmd+]",
+  "command": "-markdown.extension.onIndentLines",
+  "when": "editorTextFocus && !suggestWidgetVisible && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+},
+{
+  "key": "shift+cmd+r",
+  "command": "references-view.findReferences",
+  "when": "editorHasReferenceProvider"
+},
+{
+  "key": "shift+alt+f12",
+  "command": "-references-view.findReferences",
+  "when": "editorHasReferenceProvider"
+},
+{
+  "key": "shift+cmd+'",
+  "command": "rerunSearchEditorSearch",
+  "when": "inSearchEditor"
+},
+{
+  "key": "shift+cmd+r",
+  "command": "-rerunSearchEditorSearch",
+  "when": "inSearchEditor"
+},
 ]

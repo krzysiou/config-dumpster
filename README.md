@@ -6,7 +6,7 @@
   
   ###### 0.0 - vsc
   
-   I'm using `Nord Deep` for main theme, `Material Icons Theme` for icons theme and `Fluent Icons` for production icons theme. `keybindings.json` and `settings.json` should go in `~/Library/Application\ Support/Code/User`.
+   I'm using `Dark+` for main theme, `Material Icons Theme` for icons theme and `Fluent Icons` for production icons theme. `keybindings.json` and `settings.json` should go in `~/Library/Application\ Support/Code/User`. Also I provided custom vsc extension that i made, it is in a respective folder.
   
   ###### 0.1 - dotfiles 
   
