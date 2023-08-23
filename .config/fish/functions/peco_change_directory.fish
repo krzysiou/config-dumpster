@@ -18,10 +18,10 @@ function peco_change_directory
 
   begin
     echo --
-    ghq list -p
+    find /Users/krzysiek/gh -maxdepth 1 -type d
     echo "-- GIT"
 
-    echo $HOME/ghq/github.com/krzysztof-tluszcz
+    echo $HOME/gh/krzysiou
     echo $HOME/.config
     echo $HOME
     echo "-- ANCHORS"
